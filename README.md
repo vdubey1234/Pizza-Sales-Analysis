@@ -1,76 +1,84 @@
 # Pizza-Sales-Analysis
 
-1.	Project Title / Headline
+1. Project Title / Headline
+Pizza Sales Analytics: A Comprehensive Pizza Sales Analysis Dashboard
+A dynamic, interactive visualization dashboard built to uncover key sales trends across various pizza types. This dashboard helps identify best- and worst-performing pizzas, monthly and quarterly sales patterns, and peak pizza purchasing hours — supporting better business decisions and growth strategies.
 
-Pizza Sales Analytics: A global Pizza Sales Analysis 
-A dynamic , visualization dashboard built to interpret the trends in the sales of diffferent pizza's , that can help to analysze the bestselling and worst selliong Pizza's,monthly,quaterly reports and teh peak Pizza buying hours that would help teh businesses to gow.
+2. Project Description
+A deep insight was drawn from the pizza order data, including variables like pizza category, order time, order day, and pizza varieties.
+Data cleaning and transformation were performed in MS Excel to derive raw insights and calculate key performance indicators (KPIs).
+Trend interpretations were executed using MySQL, where SQL queries extracted insights on daily, weekly, and hourly order trends, category-wise sales, and the top-performing pizzas.
+These insights were visualized using various charts and slicers to build a real-time, dynamic dashboard for Pizza Sales.
 
-A deep insight built on the data collected regarding teh pizza orders alongwith with teh pizza category, order time, order day , pizzas varieties etc. The data cleaning and data processing through MS Excel helped in drawing teh Raw insights regarding the KPI'S(key Performance Indicators) and the various Trends.
-Interpretation of teh trends was done using MY SQL where SQL Querirs helped to draw the insights related to Daily,weekly and Hourly Trend for the the Pizza Orders,Category Wise Sales of Pizzas and the Best and Worst Performing Pizzas.
-The Results of these insights were used to draw Visualizations using different charts and slicers to showcase the real-time and dynamic data of Pizzas Sales.
-
-Tech Stack
-
+3. Tech Stack
 The dashboard was built using the following tools and technologies:
-•	📊 MS Excel – Main data visualization platform used for report creation.
-•	📂SQL Sever – Data transformation and cleaning layer for reshaping and preparing the data.
-•	🧠 Sql Server Mangement Studio – Used for calculated measures, dynamic visuals, and conditional logic.
-•	📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.
-•	📁 File Format – .pbix for development and .png for dashboard previews.
 
-4.	Data Source
-   Extracted the Pizza Saled Data from Kaggle.com
-  	
-6.	Features / Highlights
-The best dashboard explanation format. 
-•	Business problem
-•	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
-•	Business impact & Insights
+📊 MS Excel – Main data visualization platform used for dashboard creation
 
-•	Business Problem
+🧮 MySQL – Used for querying, trend analysis, and aggregations
+
+📂 SQL Server Management Studio (SSMS) – For executing and managing SQL queries
+
+🔗 Data Modeling – Relationships established among different pizza-related fields (category, order ID, date/time) for efficient filtering and aggregation
+
+📁 File Format – .xlsx for raw data processing and .png for dashboard previews
+
+4. Data Source
+Extracted from Kaggle.com, titled: Pizza Sales Dataset
+
+5. Features / Highlights
+This project follows the best dashboard explanation format:
+
+🔹 Business Problem
 Despite steady sales, the pizza outlet lacks clear insights into peak order times, top-selling items, and customer preferences.
 Inventory waste and missed revenue opportunities are increasing due to inefficient decision-making.
 A data-driven dashboard is needed to analyze sales trends, optimize operations, and improve profitability.
 
-•	Goal of the Dashboard
+🔹 Goal of the Dashboard
 To deliver an interactive visual tool that:
-Empowers users to explore pizza sales across categories, days, and time periods.
-Supports decisions such as inventory planning, promotional strategies, and menu optimization.
-Uncovers trends in order timing, customer preferences, and product performance to boost profitability.
+Empowers users to explore pizza sales across categories, days, and time periods
+Supports decisions such as inventory planning, promotional strategies, and menu optimization
+Uncovers trends in order timing, customer preferences, and product performance to boost profitability
 
-•	Walkthrough of Key Visuals
--	Key KPIs (Top Left)
-Total number of resorts: 499
-Resorts with summer skiing: 29
-Resorts with night skiing: 204
-Child-friendly resorts: 495
-Countries covered: 38
-Continents represented: 5
--	Continent Filter Panel
-An interactive slicer lets users filter all visuals by selected continents, such as Europe or Asia.
--	Top Countries with Most Resorts (Bar Chart)
-Bar chart ranks countries like Austria, France, and the U.S. by number of ski resorts.
--	Slopes by Resort (Line Chart)
-Displays the distribution of slope types (beginner, intermediate, expert, and total). Helps identify which resorts favor beginners vs. experts.
--	 Resorts by Skill Level (Dual Line Charts)
-Two line visuals side by side: one for resorts that cater to beginners, another for experts—allowing skill-level segmentation.
--	Elevation Stats (Grouped Bar Chart)
-Compare the highest and lowest elevation points of resorts to understand terrain steepness and potential snow quality.
--	Lift Types by Resort (Stacked Bar Chart)
-Stacked bar chart showing:
-Gondola lifts
-Chair lifts
-Surface lifts
-Total lifts
-This helps users gauge resort infrastructure and capacity.
+ Walkthrough of Key Visuals
+Key KPIs Panel:
+Displays essential performance indicators at a glance:
 
-•	Business Impact & Insights
-Marketing Optimization: Helps the business identify best-selling pizza categories and peak ordering times to design targeted promotions and offers.
-Inventory & Operations Management: Enables better inventory planning by tracking demand trends across days and time slots, reducing waste and stockouts.
-Product Strategy: Assists in recognizing high- and low-performing pizzas, guiding decisions on menu refinement and product bundling.
-Performance Monitoring: Allows management to evaluate daily, weekly, and hourly sales performance, supporting agile and data-driven business decisions.lty.
-Regional Analysis: Governments and tourism bodies can analyze competitiveness by region
+Total Revenue: 817,860
+Total Orders: 21,350
+Total Pizzas Sold: 49,574
+Average Order Value: 38.31
+Average Pizzas per Order: 2.32
 
-Show what the dashboard looks like.
+Daily Trend for Pizza Orders (Bar Chart):
+Shows the volume of orders by day, highlighting high- and low-traffic days for sales planning.
 
+Hourly Order Trends (Line Chart):
+Displays peak order times during the day to help optimize staffing, kitchen prep, and delivery scheduling.
+
+% Sales by Pizza Category (Donut Chart):
+Visualizes the proportion of sales across pizza categories like Classic, Veggie, Supreme, etc., to understand customer preferences.
+
+% Sales by Pizza Size (Pie Chart):
+Breaks down sales by pizza size (Small, Medium, Large), useful for menu pricing and inventory decisions.
+
+Best & Worst Selling Pizzas (Funnel Chart):
+Ranks individual pizzas from highest to lowest sales, enabling strategic decisions on product focus, removal, or promotion.
+
+
+🔹 Business Impact & Insights
+Marketing Optimization:
+Helps the business identify best-selling pizza categories and peak order times to design targeted offers and promotions.
+
+Inventory & Operations Management:
+Improves demand forecasting and inventory planning, reducing waste and ensuring high-demand pizzas are always in stock.
+
+Product Strategy:
+Recognizes high- and low-performing pizzas, guiding decisions for menu optimization, pricing, and bundling strategies.
+
+Performance Monitoring:
+Enables the business to monitor hourly, daily, and weekly trends and respond quickly to changes in customer behavior or sales patterns.
+
+6. Dashboard Preview
+🔗 View Dashboard:
+Pizza Sales Dashboard Preview (GitHub)
