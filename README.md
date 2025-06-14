@@ -81,4 +81,4 @@ Enables the business to monitor hourly, daily, and weekly trends and respond qui
 
 6. Dashboard Preview
 🔗 View Dashboard:
-Pizza Sales Dashboard Preview (GitHub)
+[Pizza Sales Dashboard Preview (GitHub)](https://github.com/vdubey1234/Pizza-Sales-Analysis/blob/main/Pizza_Sales_Dashboard.jpg)
